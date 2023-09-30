@@ -1,1 +1,8 @@
-https://github.com/pratyushsojitra/sem1/blob/main/lab%201/addition.c
+#include<stdio.h>
+
+void main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a+b);
+}
