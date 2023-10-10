@@ -2,12 +2,13 @@
 
 void main()
 {
-    int a,n=1,i;
+    int a,n=1,i=1;
     printf("enter a value of a:");
     scanf("%d",&a);
-    for (int i = 1; i <= a; i++)
+    while (i <= a)
     {
         n=n*i;
+        i++;
     }
      printf("%d",n);
 }
