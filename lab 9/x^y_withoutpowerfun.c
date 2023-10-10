@@ -4,12 +4,13 @@
 
 void main()
 {
-    int x,y,ans=1;
+    int x,y,ans=1,i=1;
     printf("enter value of x and y:");
     scanf("%d %d",&x,&y);
-    for (int i = 1; i <= y; i++)
+    while(i<=y)
     {
         ans=ans*x;
+        i++;
     }
 
     printf("%d",ans);
